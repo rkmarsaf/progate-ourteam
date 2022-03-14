@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: "Lucida Grande";
+  background: #F0F0F0;
 }
 
 a {
@@ -45,7 +46,8 @@ a {
   top:50px;
   width:100%;
   color: black;
-  font-style: bold;
+  font-size: 17px;
+  font-weight: bold;
 }
 
 .txt-contents{
@@ -54,6 +56,17 @@ a {
   margin-top:5px;
   font-size:15px;
   color:black;
+
+}
+
+.user {
+    height:190px;
+    width:190px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 7px solid;
+    border-color: #A9A9A9;
+    /*border-opacity: 0.7;*/
 }
 
 /* For Tablets */
