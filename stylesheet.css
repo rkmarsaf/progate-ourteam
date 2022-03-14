@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+  background: #F0F0F0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  text-align:center;
+}
+
+.heading {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-color: black;
+}
+
+.heading h2 {
+  font-style: bold;
+  font-size: 45px;
+  letter-spacing: 5px;
+  opacity: 0.8;
+}
+
+.lesson {
+  float: left;
+  width: 20%;
+}
+
+.lesson-icon{
+  position:relative;
+}
+
+.lesson-icon p{
+  top:50px;
+  width:100%;
+  color: black;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.txt-contents{
+  width:80%;
+  display:inline-block;
+  margin-top:5px;
+  font-size:15px;
+  color:black;
+
+}
+
+.user {
+    height:190px;
+    width:190px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 7px solid;
+    border-color: #A9A9A9;
+    /*border-opacity: 0.7;*/
+}
+
+/* For Tablets */
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+}
